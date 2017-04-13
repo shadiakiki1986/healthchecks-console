@@ -1,5 +1,5 @@
 # healthchecks-console
-Console application that wraps the REST API of [healthchecks](https://github.com/healthchecks/healthchecks), which is also hosted at https://healthchecks.io
+Console application that wraps a [healthchecks](https://github.com/healthchecks/healthchecks) server [REST API](https://healthchecks.io/docs/api/), which is also hosted at https://healthchecks.io
 
 - Written in golang
 - As of 2017-04-12, this is still WIP
