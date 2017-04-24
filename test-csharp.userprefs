@@ -1,26 +1,6 @@
 ﻿<Properties StartupItem="test-csharp/test-csharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="test-csharp/HealthChecks.cs">
-    <Files>
-      <File FileName="test-csharp/Options.cs" Line="129" Column="1" />
-      <File FileName="test-csharp/Program.cs" Line="39" Column="28" />
-      <File FileName="test-csharp/HealthChecks.cs" Line="56" Column="27" />
-      <File FileName="test-csharp/README.md" Line="12" Column="55" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="test-csharp" expanded="True">
-            <Node name="test-csharp" expanded="True">
-              <Node name="References" expanded="True">
-                <Node name="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b9a188c8922137c6" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
