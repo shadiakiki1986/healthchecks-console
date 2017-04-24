@@ -1,20 +1,29 @@
 # healthchecks-console
 Console application that wraps a [healthchecks](https://github.com/healthchecks/healthchecks) server [REST API](https://healthchecks.io/docs/api/), which is also hosted at https://healthchecks.io
 
-- Written in golang
-- As of 2017-04-12, this is still WIP
-- Downloadable compiled binaries in the releases page
+## Installation
+
+- As of 2017-04-24, this is still WIP
+- Downloadable compiled binaries in the releases page (TBD)
+- Instructions for ubuntu
 
 ## Usage
 
 Configure
 
+- not implemented yet. Just place the API key in `~/.healthchecksrc`
 - `hc configure:api-key <api key>`
 - `hc configure:endpoint https://healthchecks.io`
 - stores configurations in file `~/.healthchecksrc`
 
+List checks
+
+- implemented
+- `hc list`
+
 Update local cache of list of checks
 
+- not implemented yet
 - `hc update`
 - caches the list of checks in a file `~/.cache/healthchecks/list.json`
 
@@ -45,3 +54,10 @@ Prune inactive checks
 
 ## License
 Check [[LICENSE]]
+
+
+## Compiling
+
+1. install monodevelop
+2. sudo apt install mono-complete # http://www.mono-project.com/docs/getting-started/install/linux/
+3. Open .sln file in monodevelop, build, ...
